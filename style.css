@@ -1,4 +1,22 @@
+:root {
+  --dark-bar: #3e3e3e;
+  --light-bar: #fff;
+  --dark-bg: #282b32;
+  --light-bg: #f5f5f5;
+  --color-orange: #f31709;
+  --text-gray: #4f4f4f;
+  --text-white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: blue;
+  font-family: lato, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  width: 100%;
 }
