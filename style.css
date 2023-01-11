@@ -352,7 +352,7 @@ body {
     display: flex;
     padding-top: 30.5px;
     gap: 25px;
-    height: 662px;
+    height: auto;
     left: calc(50% - 375px / 2);
     top: calc(50% - 662px / 2 + 56px);
     mix-blend-mode: normal;
@@ -362,6 +362,7 @@ body {
     align-content: center;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 20px;
   }
 
   .program h2 {
@@ -391,6 +392,7 @@ body {
     flex: none;
     flex-grow: 0;
     list-style: none;
+    opacity: 0.9;
   }
 
   .program .program-details .program-card {
@@ -402,10 +404,11 @@ body {
     gap: 8.92px;
     height: 82px;
     background-color: #3b3e45;
-    flex: none;
+    background-image: url(./assets/images/Program_BG.png);
+    background-repeat: repeat;
     flex-grow: 0;
-    margin-left: 48px;
-    margin-right: 48px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .program .program-details .program-card img {
@@ -422,7 +425,8 @@ body {
     align-items: center;
     letter-spacing: -0.01em;
     color: #ff5438;
-    width: 35%;
+    width: 30%;
+    height: auto;
   }
 
   .program .program-details .program-card p {
@@ -434,6 +438,7 @@ body {
     letter-spacing: 0.06em;
     color: #fff;
     width: 80%;
+    margin: 0;
   }
 
   .program #btn-join {
@@ -461,17 +466,6 @@ body {
     align-items: center;
     padding: 32px 4px;
     gap: 10px;
-    height: 1000px;
-    left: calc(50% - 375px / 2);
-    top: calc(50% - 254px / 2 + 56px);
-  }
-
-  .speakers-content .collapsed {
-    height: 254px;
-  }
-
-  .speakers-content .no-collapsed {
-    height: 254px;
   }
 
   .speakers-content hr {
