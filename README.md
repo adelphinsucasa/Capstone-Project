@@ -164,6 +164,6 @@ I would like to thank my family, all the partners and Microverse platform.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](<a href="https://github.com/adelphinsucasa/Capstone-Project/blob/main/LICENSE">License</a>) licensed.
+This project is [MIT](<a href="https://github.com/adelphinsucasa/Capstone-Project/LICENSE">License</a>) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
