@@ -78,7 +78,7 @@
 
 ## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
 
-<a href="#">Visit the Live Demo</a>
+<a href="https://adelphinsucasa.github.io/Capstone-Project/">Visit the Live Demo</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
