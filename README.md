@@ -56,23 +56,31 @@
 - **Mobile version**
 
   - **Hamburger menu**
-  - **Presentation section**
-  - **Works section**
-  - **PopUp info about projects**
-  - **About me section**
-  - **Contact me**
-  - **JS form validation**
-  - **Local Storage Management**
+  - **Index Page**
+    ->>Hero Section>>
+    ->>Main Program>>
+    ->>Features Speackers>>
+  - **About Page**
+    ->>Hero Section>>
+    ->>Info Logo>>
+    ->>Past History>>
+    ->>Partners>>
+    ->>Footer>>
 
   **Desktop version**
 
-  - **Presentation section**
-  - **Works section**
-  - **PopUp info about projects**
-  - **About me section**
-  - **Contact me**
-  - **JS form validation**
-  - **Local Storage Management**
+  - **Nav Bar**
+  - **Index Page**
+    ->>Hero Section>>
+    ->>Main Program>>
+    ->>Features Speackers>>
+    ->>Partners>>
+    ->>Footer>>
+  - **About Page**
+    ->>Hero Section>>
+    ->>Info Logo>>
+    ->>Past History>>
+    ->>Footer>>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,8 +156,7 @@ I would like to thank my family, all the partners and Microverse platform.
 
   - You can delete my name and put yours without any problem.
 
-- **[Can I change the original colors or assign a new color palette?
-  ]**
+- **Can I change the original colors or assign a new color palette?**
 
   - [Yeah, no problem]
 
@@ -157,8 +164,6 @@ I would like to thank my family, all the partners and Microverse platform.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](<a href="https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first/blob/main/LICENSE">License</a>) licensed.
-
-<a href="https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first/blob/main/LICENSE">License</a>
+This project is [MIT](<a href="https://github.com/adelphinsucasa/Capstone-Project/blob/main/LICENSE">License</a>) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
