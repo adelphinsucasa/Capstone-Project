@@ -6,7 +6,7 @@
   <br/>
 
   <h3><b>Jose Alejandro Delphin Puente</b></h3>
-  <h3><b>Capstone Project - Concert</b></h3>
+  <h3><b>Capstone Project - Web Courses</b></h3>
 
 </div>
 
