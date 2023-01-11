@@ -67,7 +67,7 @@ btnMore.innerHTML = 'MORE';
 if (window.matchMedia('(max-width: 767px)').matches) {
   ul.innerHTML = fillSpeakers(3, 2);
 } else {
-  console.log('Desktop');
+  ul.innerHTML = fillSpeakers(6, 1);
 }
 
 mainH2.textContent = 'Features Speakers';
@@ -80,7 +80,7 @@ btnMore.addEventListener('click', (e) => {
   if (e.target.innerHTML === 'MORE') {
     e.target.innerHTML = 'LESS';
     const ul = document.querySelector('.speaker-group');
-    ul.innerHTML = fillSpeakers(5, 1);
+    ul.innerHTML = fillSpeakers(6, 1);
   } else {
     e.target.innerHTML = 'MORE';
     const ul = document.querySelector('.speaker-group');

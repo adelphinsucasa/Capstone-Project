@@ -39,7 +39,7 @@
             <div class="logo-and-bar">
                 <img id="hamburguer-icon" src="./assets/images/toolbar.png" alt="Toolbar Icon" />
                 <nav class="secondary-bar">
-                    <img id="logo" src="./assets/images/logo.png" class="logo" alt="logo" />
+                    <a href="index.html"><img src="./assets/images/MiLogo.png" class="logo" alt="logo"></a>
                     <ul>
                         <li><a href="about.html">About</a></li>
                         <li><a href="#">Program</a></li>
@@ -54,15 +54,15 @@
 
         <div class="hamburguer">
             <button id="btn-close" type="button" class="btn-close" aria-label="Close"></button>
-            <ul class="hamburguer">
-              <li class="hamburguer">
+            <ul id="ul-collapse" class="hamburguer">
+                <li class="hamburguer">
                 <a class="hamburguer-link" href="index.html"><h3>Home</h3></a>
-              </li>
-              <li class="hamburguer">
+                </li>
+                <li class="hamburguer">
                 <a class="hamburguer-link" href="about.html"><h3>About</h3></a>
-              </li>
+                </li>
             </ul>
-          </div>
+        </div>
 
         <!--Section flex container-->
         <section class="flex-container">
@@ -70,7 +70,7 @@
             <div class="hero-container">
                 <div class="hero-title">
                     <h2>"Hello! Sharing Courses"</h2>
-                    <h1>JDP WEB COURSES GLOBAL SUMMIT 2023</h1>
+                    <h1>Jose Delphin System Advisor Courses 2023</h1>
                 </div>
                 <div class="sub-theme">
                     <p>The best web course believing in the value of openness and sharing, creating a positive 
@@ -114,14 +114,35 @@
                         <p>get opportunities to network with JDP affiliates around the world, also after the summit.</p>
                     </li>
                 </ul>
-                <button id="btn-join" type="button">Join JDP WC Global Summit 2015</button>
+                <button id="btn-join" type="button">Join Jose Delphin System Advisor Course 2023</button>
+                <a id="linkProgram" href="#">SEE THE WHOLE PROGRAM</a>
             </div>
 
             <!--Featured Speakers-->
             <div class="speakers-content">
             </div>
-        </section>
 
+            <!--Partners-->
+            <div class="partners-container-desktop">
+                <h2>Partner</h2>
+                <hr>
+                <div class="partners-logo">
+                    <img src="./assets/images/img-mozilla.png" alt="">
+                    <img src="./assets/images/img-google.png" alt="">
+                    <img src="./assets/images/img-naver.png" alt="">
+                    <img src="./assets/images/img-daumkakao.png" alt="">
+                    <img src="./assets/images/img-airbnb.png" alt="">
+                </div>
+            </div>
+        </section>
+        <footer class="footer-index">
+            <img src="./assets/images/cck-logo1.png" alt="cc logo">
+            <div class="footer-text">
+                <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+                <p class="korean-text">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+                    자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+            </div>
+        </footer>
     </main>
     <script src="hamburguer.js"></script>
     <script src="speakers.js"></script>
