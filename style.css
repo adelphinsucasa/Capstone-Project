@@ -269,6 +269,7 @@ body {
   .hero-container .hero-title h1 {
     color: #f9432b;
     font-size: 30px;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: url(./assets/images/regla.jpg);
     background-repeat: repeat;
@@ -855,6 +856,7 @@ body {
     color: #f9432b;
     font-size: 50px;
     font-weight: bolder;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: url(./assets/images/regla.jpg);
     background-repeat: repeat;
