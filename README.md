@@ -30,7 +30,7 @@
 
 # 📖 Jose Alejandro Delphin Puente - Capstone Project <a name="about-project"></a>
 
-> A Capstone project website is a way to show one of my works and let others know about How looks a project developed with my new skill. It's a website to show a concert data.
+> A Capstone project website is a way to show one of my works and let others know about How looks a project developed with my new skill. It's a website to show a Web Coures Availability.
 
 ## 🛠 Built With <a name="built-with"></a>
  - Visual Studio Code
