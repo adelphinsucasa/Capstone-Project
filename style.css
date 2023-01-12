@@ -391,19 +391,17 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    gap: 8.92px;
-    height: 82px;
+    align-content: center;
+    padding: 4px 10px;
     background-color: #3b3e45;
     background-image: url(./assets/images/Program_BG.png);
     background-repeat: repeat;
-    flex-grow: 0;
     margin-left: 24px;
     margin-right: 24px;
   }
 
   .program .program-details .program-card img {
-    width: 40px;
+    width: 65px;
     height: auto;
     padding: 5px;
   }
@@ -413,16 +411,18 @@ body {
     font-size: 14.2712px;
     line-height: 25px;
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    align-content: stretch;
     letter-spacing: -0.01em;
     color: #ff5438;
     width: 30%;
     height: auto;
+    margin: 0;
   }
 
   .program .program-details .program-card p {
-    font-weight: 700;
-    font-size: 10.7034px;
+    font-weight: 400;
+    font-size: 13px;
     line-height: 22px;
     display: flex;
     align-items: center;
@@ -981,7 +981,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: 0 4px;
     gap: 4px;
     height: 231px;
     background-color: #3b3e45;
@@ -1010,8 +1010,8 @@ body {
   }
 
   .program .program-details .program-card p {
-    font-weight: 700;
-    font-size: 10px;
+    font-weight: 400;
+    font-size: 12px;
     line-height: 22px;
     display: flex;
     align-items: baseline;
@@ -1358,17 +1358,13 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
     gap: 35px;
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin-left: 20%;
-    margin-right: 20%;
     background: #fff;
     border-bottom: 1px solid #fafafa;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 20%;
   }
 
   .previous-summit h2 {
@@ -1415,11 +1411,10 @@ body {
     background: #2e2e2e;
     color: white;
     font-size: 10px;
-    margin-bottom: 60px;
     gap: 20px;
     align-items: center;
     justify-content: center;
-    padding: 40px 20%;
+    padding: 0 20%;
   }
 
   .footer-about img {
