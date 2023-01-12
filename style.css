@@ -72,14 +72,14 @@ body {
 .logo-and-bar nav {
   display: flex;
   width: 100%;
-  height: 10px;
+  height: 20px;
   justify-content: space-between;
   align-content: center;
 }
 
 .logo {
   width: 120px;
-  height: auto;
+  height: 20px;
   margin-top: 0;
   align-self: flex-start;
 }
@@ -98,6 +98,7 @@ body {
 .secondary-bar ul li {
   font-size: 14px;
   margin: 5px;
+  padding: 0 30px;
 }
 
 .secondary-bar ul li a {
@@ -822,7 +823,7 @@ body {
   .flex-container {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 60px;
+    padding-top: 5px;
     width: 100%;
   }
 
@@ -1127,6 +1128,16 @@ body {
     display: none;
   }
 
+  .partners-container-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background: #414246;
+    padding: 20px 0;
+  }
+
   .partners-container-desktop h2 {
     font-weight: 400;
     font-size: 20px;
@@ -1392,14 +1403,6 @@ body {
 
   .previous-summit .previous-img img {
     width: calc(50% - 10px);
-  }
-
-  .partners-container-desktop {
-    display: none;
-  }
-
-  .partners-container {
-    display: none;
   }
 
   .footer-about {

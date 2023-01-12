@@ -119,16 +119,9 @@ ve Venezuela 💓
 - Twitter: [@twitterhandle](@josedelphin)
 - LinkedIn: [LinkedIn](@adelphin)
 
-
 👤 **Author2**
 
 Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07) is licensed under [CC BY-ND 2.0.](https://creativecommons.org/licenses/by-nd/2.0/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- HTML + basic JavaScript Capstone
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
