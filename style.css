@@ -776,9 +776,9 @@ body {
     gap: 40px;
   }
 
-  .partners-container img {
-    width: 109.79px;
-    height: 31px;
+  .partners-container .partners-logo img {
+    width: 40px;
+    height: 20px;
   }
 
   .footer-about {
@@ -1128,6 +1128,10 @@ body {
     display: none;
   }
 
+  .partners-container {
+    display: none;
+  }
+
   .partners-container-desktop {
     display: flex;
     flex-direction: column;
@@ -1346,7 +1350,7 @@ body {
   }
 
   .logo-info img {
-    width: 100%;
+    width: 60%;
   }
 
   .previous-summit {
@@ -1407,9 +1411,7 @@ body {
 
   .footer-about {
     display: flex;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+    width: 100%;
     background: #2e2e2e;
     color: white;
     font-size: 10px;
@@ -1417,6 +1419,7 @@ body {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    padding: 40px 20%;
   }
 
   .footer-about img {
