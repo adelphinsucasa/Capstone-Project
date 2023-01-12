@@ -6,13 +6,14 @@
   <br/>
 
   <h3><b>Jose Alejandro Delphin Puente</b></h3>
-  <h3><b>Capstone Project - Concert</b></h3>
+  <h3><b>Capstone Project - Web Courses</b></h3>
 
 </div>
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+    - [Walkthrough Video](#walkthrough-video)
     - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -32,13 +33,16 @@
 
 > A Capstone project website is a way to show one of my works and let others know about How looks a project developed with my new skill. It's a website to show a Web Coures Availability.
 
-## 🛠 Built With <a name="built-with"></a>
+## Walkthrough Video <a  name="walkthrough-video"></a>
+<a href="https://www.loom.com/share/c9f8c4dfd90d4ad8ab28f7dd5606d903">Check the video</a>
+
+### 🛠 Built With <a name="built-with"></a>
  - Visual Studio Code
  - HTML
  - CSS
  - Javascript
 
-### Tech Stack <a name="tech-stack"></a>
+#### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
@@ -51,28 +55,36 @@
 
 <!-- Features -->
 
-#### Key Features <a name="key-features"></a>
+##### Key Features <a name="key-features"></a>
 
 - **Mobile version**
 
   - **Hamburger menu**
-  - **Presentation section**
-  - **Works section**
-  - **PopUp info about projects**
-  - **About me section**
-  - **Contact me**
-  - **JS form validation**
-  - **Local Storage Management**
+  - **Index Page**
+    ->>Hero Section>>
+    ->>Main Program>>
+    ->>Features Speackers>>
+  - **About Page**
+    ->>Hero Section>>
+    ->>Info Logo>>
+    ->>Past History>>
+    ->>Partners>>
+    ->>Footer>>
 
   **Desktop version**
 
-  - **Presentation section**
-  - **Works section**
-  - **PopUp info about projects**
-  - **About me section**
-  - **Contact me**
-  - **JS form validation**
-  - **Local Storage Management**
+  - **Nav Bar**
+  - **Index Page**
+    ->>Hero Section>>
+    ->>Main Program>>
+    ->>Features Speackers>>
+    ->>Partners>>
+    ->>Footer>>
+  - **About Page**
+    ->>Hero Section>>
+    ->>Info Logo>>
+    ->>Past History>>
+    ->>Footer>>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,16 +123,9 @@ ve Venezuela 💓
 - Twitter: [@twitterhandle](@josedelphin)
 - LinkedIn: [LinkedIn](@adelphin)
 
-
 👤 **Author2**
 
 Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07) is licensed under [CC BY-ND 2.0.](https://creativecommons.org/licenses/by-nd/2.0/).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- HTML + basic JavaScript Capstone
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,8 +153,7 @@ I would like to thank my family, all the partners and Microverse platform.
 
   - You can delete my name and put yours without any problem.
 
-- **[Can I change the original colors or assign a new color palette?
-  ]**
+- **Can I change the original colors or assign a new color palette?**
 
   - [Yeah, no problem]
 
@@ -157,8 +161,6 @@ I would like to thank my family, all the partners and Microverse platform.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](<a href="https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first/blob/main/LICENSE">License</a>) licensed.
-
-<a href="https://github.com/adelphinsucasa/Portfolio-Setup-and-mobile-first/blob/main/LICENSE">License</a>
+This project is [MIT](<a href="https://github.com/adelphinsucasa/Capstone-Project/LICENSE">License</a>) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

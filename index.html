@@ -5,27 +5,146 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Capstone Project - Jose Delphin</title>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
 </head>
 <body>
     <main>
-        <!--Header-->
         <header>
-            
+            <nav class="primary-bar">
+                <ul >
+                    <li><a href="https://twitter.com/JoseADelphin"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 
+                        1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                      </svg>
+                      </svg></a></li>
+                    <li><a href="https://twitter.com/JoseADelphin"><svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 
+                        6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 
+                        3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                      </svg></a></li>
+                    <li><a href="#">English</a></li>
+                    <li><a href="#">MyPage</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </nav>
+            <div class="logo-and-bar">
+                <img id="hamburguer-icon" src="./assets/images/toolbar.png" alt="Toolbar Icon" />
+                <nav class="secondary-bar">
+                    <a href="index.html"><img src="./assets/images/MiLogo.png" class="logo" alt="logo"></a>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Program</a></li>
+                        <li><a href="#">Join</a></li>
+                        <li><a href="#">Sponsor</a></li>
+                        <li><a href="#">News</a></li>
+                        <li class="campaign"><a href="#">CC Campaign</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <!--Section Center-->
-        <section>
+        <div class="hamburguer">
+            <button id="btn-close" type="button" class="btn-close" aria-label="Close"></button>
+            <ul id="ul-collapse" class="hamburguer">
+                <li class="hamburguer">
+                <a class="hamburguer-link" href="index.html"><h3>Home</h3></a>
+                </li>
+                <li class="hamburguer">
+                <a class="hamburguer-link" href="about.html"><h3>About</h3></a>
+                </li>
+            </ul>
+        </div>
 
+        <!--Section flex container-->
+        <section class="flex-container">
+            <!--Hero-->
+            <div class="hero-container">
+                <div class="hero-title">
+                    <h2>"Hello! Sharing Courses"</h2>
+                    <h1>Jose Delphin System Advisor Courses 2023</h1>
+                </div>
+                <div class="sub-theme">
+                    <p>The best web course believing in the value of openness and sharing, creating a positive 
+                        change with people from over 80 countries is taking place in January, in Microverse.</p>
+                </div>
+                <div class="date-venue">
+                    <h3>2023.01.09(MON) ~ 13(FRI)</h3>
+                    <p>@ Microverse, HTTP-CSS-JavaScript and more
+                    </p>
+                </div>
+            </div>
+    
+            <!--Program-->
+            <div id="program" class="program">
+                <h2>Main Program</h2>
+                <hr>
+                <ul class="program-details">
+                    <li class="program-card">
+                        <img src="./assets/images/program_icon_01.png" alt="lecture icon">
+                        <h2>Lecture</h2>
+                        <p>Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                    </li>
+                    <li class="program-card">
+                        <img src="./assets/images/program_icon_02.png" alt="cc eshibition icon">
+                        <h2>CC Exhibition</h2>
+                        <p>Appreciate various creations applying CC license of artists, organized from Microverse</p>
+                    </li>
+                    <li class="program-card">
+                        <img src="./assets/images/program_icon_03.png" alt="forum icon">
+                        <h2>Forum</h2>
+                        <p>Have the time to share your thoughts and opinions with experts for each topic.</p>
+                    </li>
+                    <li class="program-card">
+                        <img src="./assets/images/program_icon_04.png" alt="workshop icon">
+                        <h2>Workshop</h2>
+                        <p>Try creating your own work using open source license rather than just watching at it.</p>
+                    </li>
+                    <li class="program-card">
+                        <img src="./assets/images/program_icon_05.png" alt="cc ignite icon">
+                        <h2>CC Ignite</h2>
+                        <p>get opportunities to network with JDP affiliates around the world, also after the summit.</p>
+                    </li>
+                </ul>
+                <button id="btn-join" type="button">Join Jose Delphin System Advisor Course 2023</button>
+                <a id="linkProgram" href="#">SEE THE WHOLE PROGRAM</a>
+            </div>
+
+            <!--Featured Speakers-->
+            <div class="speakers-content">
+            </div>
+
+            <!--Partners-->
+            <div class="partners-container-desktop">
+                <h2>Partner</h2>
+                <hr>
+                <div class="partners-logo">
+                    <img src="./assets/images/img-mozilla.png" alt="">
+                    <img src="./assets/images/img-google.png" alt="">
+                    <img src="./assets/images/img-naver.png" alt="">
+                    <img src="./assets/images/img-daumkakao.png" alt="">
+                    <img src="./assets/images/img-airbnb.png" alt="">
+                </div>
+            </div>
         </section>
-
-        <!--Footer-->
-        <footer>
-
+        <footer class="footer-index">
+            <img src="./assets/images/cck-logo1.png" alt="cc logo">
+            <div class="footer-text">
+                <p>2015 Creative Commons Korea. Some Rights Reserved.</p>
+                <p class="korean-text">달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
+                    자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.</p>
+            </div>
         </footer>
     </main>
     <script src="hamburguer.js"></script>
+    <script src="speakers.js"></script>
 </body>
 </html>
