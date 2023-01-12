@@ -13,6 +13,7 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+    - [Walkthrough Video](#walkthrough-video)
     - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -32,13 +33,16 @@
 
 > A Capstone project website is a way to show one of my works and let others know about How looks a project developed with my new skill. It's a website to show a concert data.
 
-## 🛠 Built With <a name="built-with"></a>
+## Walkthrough Video <a  name="walkthrough-video"></a>
+<a href="https://www.loom.com/share/c9f8c4dfd90d4ad8ab28f7dd5606d903">Check the video</a>
+
+### 🛠 Built With <a name="built-with"></a>
  - Visual Studio Code
  - HTML
  - CSS
  - Javascript
 
-### Tech Stack <a name="tech-stack"></a>
+#### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
@@ -51,7 +55,7 @@
 
 <!-- Features -->
 
-#### Key Features <a name="key-features"></a>
+##### Key Features <a name="key-features"></a>
 
 - **Mobile version**
 
