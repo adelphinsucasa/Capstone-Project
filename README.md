@@ -90,7 +90,7 @@
 
 ## 🧑🏻‍💻 Live Demo <a name="live-demo"></a>
 
-<a href="https://adelphinsucasa.github.io/To-Do-List/dist/</a>
+<a href="https://adelphinsucasa.github.io/Capstone-Project/">Visit The Website</a>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
