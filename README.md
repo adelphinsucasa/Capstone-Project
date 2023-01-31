@@ -31,7 +31,7 @@
 
 # 📖 Jose Alejandro Delphin Puente - Capstone Project <a name="about-project"></a>
 
-> A Capstone project website is a way to show one of my works and let others know about How looks a project developed with my new skill. It's a website to show a Web Coures Availability.
+> The Capstone project website is a way to show one of my works and let others know about How looks a project developed with my new skill. It's a website to show a Web Coures Availability.
 
 ## Walkthrough Video <a  name="walkthrough-video"></a>
 <a href="https://www.loom.com/share/c9f8c4dfd90d4ad8ab28f7dd5606d903">Check the video</a>
